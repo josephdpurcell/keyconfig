@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://www.mozilla.org/2004/em-rdf#">
+
+<!--
+Toolkit     toolkit@mozilla.org                    23.0 Beta
+Firefox     {ec8030f7-c20a-464f-9b0e-13a3a9e97384} 23.0 Beta
+
+SeaMonkey   {92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a} 2.0.14 | 2.17.1
+Songbird    songbird@songbirdnest.com              2.2.0
+
+-->
+
+  <rdf:Description rdf:about="urn:mozilla:extension:keyconfig@dorando">
+    <description>Rebind your keys.</description>
+    <signature>MIGTMA0GCSqGSIb3DQEBDQUAA4GBAKfvqptgPtFP59KazQTM+v7ogUYtAsRFzVuSg7sKgptmdpx5JmF3AgNCB8tKz2LlJcgaItZJtI7jri7wH9j/g5al2R0lUEYvIoi6V7ZQXtDyDnjlTNowA66OMO2pkpCS++0M+jyU4uhlE4SI7ggqVSvQxP/9ggGxjQBp1JbhT0mn</signature>
+    <updates><rdf:Seq><rdf:li><rdf:Description>
+      <version>20110522</version>
+      <targetApplication><rdf:Description>
+        <id>toolkit@mozilla.org</id>
+        <minVersion>1.9a8</minVersion>
+        <maxVersion>23.0</maxVersion>
+        <updateLink>http://mozilla.dorando.at/keyconfig/keyconfig-20110522.xpi</updateLink>
+        <updateHash>sha1:dbdc22e93810e3bd2ce3d5394ae419002b3e206e</updateHash>
+        <updateInfoURL>http://mozilla.dorando.at/keyconfig/update.xml</updateInfoURL>
+      </rdf:Description></targetApplication>
+    </rdf:Description></rdf:li></rdf:Seq></updates>
+  </rdf:Description>
+
+
+
+  <rdf:Description rdf:about="urn:mozilla:extension:menumanipulator@dorando">
+    <description>Manipulate your Menu</description>
+    <signature>MIGTMA0GCSqGSIb3DQEBDQUAA4GBAMGuCcZIZl10YmLppw5UNA3ZEgggrcn8c3eX5+cljWB18rDvKjDCyFozwm+R6jd37nMPlshc1ZPzrSFhHgrDo5TzfeMYCk7i/DBm8IuldJdP2LtUJnZCZ/YPSCEtoI1J6xiSgrL3cSR+53IducbpYQvGllL5Ax+OorNjd9ulszSJ</signature>
+    <updates><rdf:Seq><rdf:li><rdf:Description>
+      <version>20110327</version>
+      <targetApplication><rdf:Description>
+        <id>toolkit@mozilla.org</id>
+        <minVersion>1.9a8</minVersion>
+        <maxVersion>23.0</maxVersion>
+        <updateLink>http://mozilla.dorando.at/menumanipulator/menumanipulator-20110327.xpi</updateLink>
+        <updateHash>sha1:a76909c143decbf03d8e0bce588730ad741f712e</updateHash>
+        <updateInfoURL>http://mozilla.dorando.at/menumanipulator/update.xml</updateInfoURL>
+      </rdf:Description></targetApplication>
+    </rdf:Description></rdf:li></rdf:Seq></updates>
+  </rdf:Description>
+
+
+
+  <rdf:Description rdf:about="urn:mozilla:extension:minit@dorando">
+    <description>Adds a few tab related functions.</description>
+    <signature>MIGTMA0GCSqGSIb3DQEBDQUAA4GBAHFP6HKZPyGQzJg9GJZl9GQ3RSnUXQrLnUTrJwPf9vLP8Cw/POs3YK4AHk3HCYQ1+dmCNZFPaE1CCB+eEBgSn2T6e3O5s9VETeC+MTN9IRq0x0M9lm6MgkowgwncRW1dsSlNyu42owbe5/IhwMyawp/sOCM9yzB46PPJWmkDoEMA</signature>
+    <updates><rdf:Seq><rdf:li><rdf:Description>
+      <version>20110327</version>
+      <targetApplication><rdf:Description>
+        <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
+        <minVersion>3.6.16</minVersion>
+        <maxVersion>23.0</maxVersion>
+        <updateLink>http://mozilla.dorando.at/miniT/miniT-20110327.xpi</updateLink>
+        <updateHash>sha1:6c9fa0a01492c540b2ee64706e1ca8e9dfafd0f0</updateHash>
+        <updateInfoURL>http://mozilla.dorando.at/miniT/update.xml</updateInfoURL>
+      </rdf:Description></targetApplication>
+      <targetApplication><rdf:Description>
+        <id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</id>
+        <minVersion>2.0.13</minVersion>
+        <maxVersion>2.0.14</maxVersion>
+        <updateLink>http://mozilla.dorando.at/miniT/miniT-20110327.xpi</updateLink>
+        <updateHash>sha1:6c9fa0a01492c540b2ee64706e1ca8e9dfafd0f0</updateHash>
+        <updateInfoURL>http://mozilla.dorando.at/miniT/update.xml</updateInfoURL>
+      </rdf:Description></targetApplication>
+      <targetApplication><rdf:Description>
+        <id>songbird@songbirdnest.com</id>
+        <minVersion>1.9.3</minVersion>
+        <maxVersion>2.2.0</maxVersion>
+        <updateLink>http://mozilla.dorando.at/miniT/miniT-20110327.xpi</updateLink>
+        <updateHash>sha1:9fa0a01492c540b2ee64706e1ca8e9dfafd0f0</updateHash>
+        <updateInfoURL>http://mozilla.dorando.at/miniT/update.xml</updateInfoURL>
+      </rdf:Description></targetApplication>
+    </rdf:Description></rdf:li></rdf:Seq></updates>
+  </rdf:Description>
+
+
+
+  <rdf:Description rdf:about="urn:mozilla:extension:minit-tabscroll@dorando">
+    <description>Tab switching with the Mouse Wheel.</description>
+    <signature>MIGTMA0GCSqGSIb3DQEBDQUAA4GBAIwzdgvRvkeOcpHWMd0boy1QmE4kubKJ4vX1le6PjHB4zi0hpDGkXD3RzUJcMLOM2qnOSNtevJ90zoJIT5XJXZydYUnmjkgGoUO43aRWdBWd7HtvUm0V5sQ0pwbLG9fbZz+vgJHnnogk9BMIdNky7aA+W2vAd6Jrjpd8yQk0O59G</signature>
+    <updates><rdf:Seq><rdf:li><rdf:Description>
+      <version>20110327</version>
+      <targetApplication><rdf:Description>
+        <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
+        <minVersion>3.6.16</minVersion>
+        <maxVersion>23.0</maxVersion>
+        <updateLink>http://mozilla.dorando.at/miniT/miniT-tabscroll-20110327.xpi</updateLink>
+        <updateHash>sha1:14de1b6cba397d92cea77743e281f681231e1c22</updateHash>
+        <updateInfoURL>http://mozilla.dorando.at/miniT/update.xml</updateInfoURL>
+      </rdf:Description></targetApplication>
+      <targetApplication><rdf:Description>
+        <id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</id>
+        <minVersion>2.0.13</minVersion>
+        <maxVersion>2.0.14</maxVersion>
+        <updateLink>http://mozilla.dorando.at/miniT/miniT-tabscroll-20110327.xpi</updateLink>
+        <updateHash>sha1:14de1b6cba397d92cea77743e281f681231e1c22</updateHash>
+        <updateInfoURL>http://mozilla.dorando.at/miniT/update.xml</updateInfoURL>
+      </rdf:Description></targetApplication>
+      <targetApplication><rdf:Description>
+        <id>songbird@songbirdnest.com</id>
+        <minVersion>1.9.3</minVersion>
+        <maxVersion>2.2.0</maxVersion>
+        <updateLink>http://mozilla.dorando.at/miniT/miniT-tabscroll-20110327.xpi</updateLink>
+        <updateHash>sha1:14de1b6cba397d92cea77743e281f681231e1c22</updateHash>
+        <updateInfoURL>http://mozilla.dorando.at/miniT/update.xml</updateInfoURL>
+      </rdf:Description></targetApplication>
+    </rdf:Description></rdf:li></rdf:Seq></updates>
+  </rdf:Description>
+
+
+
+  <rdf:Description rdf:about="urn:mozilla:extension:searchtypeb@dorando">
+    <description>Bookmark powered Search Bar.</description>
+    <signature>MIGTMA0GCSqGSIb3DQEBDQUAA4GBAIxMXNwrCnyzy69CNkRlRciyNrwHlL2Ja8v2tIXtA4UQ3gDFxKeUAwjiKlJ3Pwrqh7R61+p2QTVFNOeTdHE0a0frU2tNWaHAtP6UwWrcJBtcIojZ0BJ4xYTt507sfePSBoM6jUMvX/XrZaqP1nNKWamCWAZEnEpl211nXglqmGVM</signature>
+    <updates><rdf:Seq><rdf:li><rdf:Description>
+      <version>20130526</version>
+      <targetApplication><rdf:Description>
+        <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
+        <minVersion>17.0.6</minVersion>
+        <maxVersion>23.0</maxVersion>
+        <updateLink>http://mozilla.dorando.at/searchtypeb/searchtypeb-20130526.xpi</updateLink>
+        <updateHash>sha1:89e83d67f618c1da7f1517c3970a2a4d9e34ff6c</updateHash>
+        <updateInfoURL>http://mozilla.dorando.at/searchtypeb/update.xml</updateInfoURL>
+      </rdf:Description></targetApplication>
+   </rdf:Description></rdf:li></rdf:Seq></updates>
+  </rdf:Description>
+
+
+
+  <rdf:Description rdf:about="urn:mozilla:extension:undoclosetab@dorando">
+    <description>Adds a few Undo Close Tab UI hooks.</description>
+    <signature>MIGTMA0GCSqGSIb3DQEBDQUAA4GBAKRm9kIgFWvPN2culNDXZafEeemcRHoqSH9jo1cBu/NCptSXtb9Mj9KSFVTj6UROMvh1WtWitSFFYNPJd6pNL17hR1SGKBGfZDMyNbbzbT6vNcB7qrr6TsrGFj0/dCHRjaoNA7Vkn707DnYH343yEhmPQ7Ihd7O88ppNFYjBVKiV</signature>
+    <updates><rdf:Seq><rdf:li><rdf:Description>
+      <version>20110326</version>
+      <targetApplication><rdf:Description>
+        <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
+        <minVersion>3.6.16</minVersion>
+        <maxVersion>23.0</maxVersion>
+        <updateLink>http://mozilla.dorando.at/undoclosetab/undoclosetab-20110326.xpi</updateLink>
+        <updateHash>sha1:b073453370429500c884a5c2810dd3dae4542836</updateHash>
+        <updateInfoURL>http://mozilla.dorando.at/undoclosetab/update.xml</updateInfoURL>
+      </rdf:Description></targetApplication>
+    </rdf:Description></rdf:li></rdf:Seq></updates>
+  </rdf:Description>
+
+
+
+</rdf:RDF>
